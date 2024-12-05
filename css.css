@@ -1,0 +1,57 @@
+.hautdepage{
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: gray;
+    margin: 10px;
+}
+.barre_de_recherche{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+html{
+    background-color: antiquewhite;
+}
+h1{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 45px;
+   display: flex;
+   justify-content: center;
+}
+.description{
+    display: flexbox;
+    align-items: space-between;
+}
+.mise_en_page{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9--0Sc1BhaMBaXO9bV8wDWp3ETVBkZ4HaiQ&s) ;
+}
+.image_haut{
+    display: flex;
+    justify-content: row;
+    justify-content: space-around;
+}
+
+.service{
+    display: flex;
+    align-items :center ;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.service_texte{
+    background-color: bisque;
+    border-radius: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+
+}
+.image-hover {
+    width: 300px;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Transition fluide */
+    border-radius: 15px;
+    justify-content: space-around;
+}

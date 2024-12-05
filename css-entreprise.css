@@ -1,0 +1,82 @@
+/* Supprime les marges et paddings du body */
+body {
+    margin: 0;/* pas de marges */
+    color: white;
+}
+
+.barre_de_recherche{
+    display: flex; /* dispositif flexbox */
+    justify-content: center; /* barre de recherche au centre */
+    border-radius: 15px; /* bordure circulaire */
+    
+}
+
+.hautdepage{
+    display:flex; /* dispositif flex box*/
+    justify-content: space-around;/* espace egal */
+    align-items: flex-start;/* commmencer de gauche a droite */
+    background-color: gray;/* couleur grise */
+    margin: 10px;/* marge de 10 */
+}
+
+/* La vidéo d'arrière-plan */
+.background-video {
+    position: fixed; /* Reste en arrière-plan même si on scrolle */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Occupe toute la largeur de la fenêtre */
+    height: 100vh; /* Occupe toute la hauteur de la fenêtre */
+    object-fit: cover; /* Remplit l'écran sans déformation */
+    z-index: -1; /* Place la vidéo derrière le contenu */
+    opacity: 0.8;;
+}
+
+/* Le contenu par-dessus la vidéo */
+.content {
+    position: relative; /* Assure que le contenu est devant la vidéo */
+
+    color: rgb(81, 126, 165); /* Contraste avec la vidéo */
+    text-align: center;
+    top: 40px;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ligne1{
+    display: flex;
+    
+    align-items :space-between;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+.ligne2{
+    display: flex;
+    align-items :center ;
+    justify-content: space-around; 
+    margin-top: 250px;
+}
+
+.ligne3{
+    display: flex;
+    align-items :center ;
+    justify-content: space-around; 
+    margin-top: 250px;
+}
+
+
+
+img {
+    animation:both ;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1; /* Visible */
+    }
+    50% {
+        opacity: 0; /* Invisible */
+    }
+    100% {
+        opacity: 1; /* Visible à nouveau */
+    }
+}
+
